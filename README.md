@@ -1,5 +1,10 @@
 # Langchain Deep Agents Project
 
+[![Python](https://img.shields.io/badge/Python-≥3.11-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![LangChain](https://img.shields.io/badge/LangChain-≥1.2.10-green?logo=langchain&logoColor=white)](https://python.langchain.com/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-≥1.0.10-green)](https://langchain-ai.github.io/langgraph/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-≥2.12.5-red?logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+
 ## Context
 
 When AI agents first took off, they were mostly used for coding and stuff like LangChain's [Deep Research](https://academy.langchain.com/courses/deep-research-with-langgraph). Now, we're seeing general-purpose agents step up to handle pretty much anything. A great example is [Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus), which has been getting a lot of hype for knocking out really long, complex tasks (averaging around 50 tool calls a run!). Claude Code is also branching out way beyond just writing software.
