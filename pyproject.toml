@@ -24,6 +24,7 @@ dev = ["mypy>=1.19.1", "ruff>=0.15.4"]
 
 [project.scripts]
 deep-agent = "src.deep_agent:main"
+deep-agent-abstracted = "src.deep_agent_with_abstraction:main"
 
 [build-system]
 requires = ["hatchling"]
