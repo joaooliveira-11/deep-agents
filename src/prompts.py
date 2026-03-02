@@ -53,3 +53,7 @@ WRITE_TODOS_DESCRIPTION = """Create and manage structured task lists for trackin
 
 ## Returns
 Updates agent state with new todo list."""
+
+TASK_DELEGATION_DESCRIPTION_PREFIX = """Delegate a task to a specialized sub-agent with isolated context. Available agents for delegation are:
+{other_agents}
+"""
